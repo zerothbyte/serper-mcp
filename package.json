@@ -1,0 +1,43 @@
+{
+  "name": "serper-mcp",
+  "version": "1.0.0",
+  "mcpName": "serper-mcp",
+  "description": "MCP server for Serper.dev Google Search API",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "type": "module",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "vercel-build": "npm run build"
+  },
+  "keywords": [
+    "serper",
+    "serper-mcp",
+    "mcp",
+    "model-context-protocol",
+    "websearch",
+    "google-search"
+  ],
+  "author": "Serper",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.26.0",
+    "axios": "^1.6.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
