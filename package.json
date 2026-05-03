@@ -28,6 +28,9 @@
   ],
   "author": "Serper",
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.26.0",
     "axios": "^1.6.7",
