@@ -8,13 +8,13 @@
     "url": ""
   },
   "type": "module",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "files": [
-    "build"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
-    "start": "node build/index.js",
+    "start": "node dist/index.js",
     "dev": "tsc --watch",
     "vercel-build": "npm run build"
   },
